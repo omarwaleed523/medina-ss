@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "logo": "BTAT · Madinah Sound System",
+    "hero": "Hero",
+    "overview": "Overview",
+    "coverage": "Coverage Map",
+    "speakers": "Speakers",
+    "connectivity": "Connectivity",
+    "signalFlow": "Signal Flow",
+    "nexus": "NEXUS",
+    "controlRooms": "Control Rooms",
+    "stats": "Stats"
+  },
+  "language": {
+    "en": "EN",
+    "ar": "عربي"
+  },
+  "hero": {
+    "eyebrow": "Al-Masjid An-Nabawi · Madinah, Saudi Arabia",
+    "title": "The World's Most Advanced Mosque Sound System",
+    "description": "A complete upgrade of the audio infrastructure at the Holy Prophet's Mosque — serving millions of worshippers with state-of-the-art acoustic precision.",
+    "cta": "Explore the System",
+    "stats": [
+      {
+        "value": 6199,
+        "label": "Speakers deployed",
+        "suffix": "+"
+      },
+      {
+        "value": 9,
+        "label": "Coverage zones",
+        "suffix": ""
+      },
+      {
+        "value": 7,
+        "label": "Independent NEXUS systems",
+        "suffix": ""
+      },
+      {
+        "value": 100,
+        "label": "Digital AoIP network",
+        "suffix": "%"
+      }
+    ]
+  },
+  "overview": {
+    "title": "System Overview",
+    "intro": "Seven pillars define the upgrade: acoustics, hardware, redundancy, networking, rooms, power, and the NEXUS core."
+  },
+  "coverage": {
+    "title": "Coverage Map",
+    "intro": "Explore the mosque footprint, switch floors, and inspect each coverage zone in detail.",
+    "placeholder": "Select a zone on the map to explore its speaker configuration"
+  },
+  "speakers": {
+    "title": "Speaker Catalogue",
+    "intro": "The deployed loudspeaker family spans active line arrays, steerable arrays, matrix arrays, and passive systems.",
+    "units": "units deployed"
+  },
+  "stats": {
+    "title": "Stats Dashboard",
+    "intro": "Key totals, speaker breakdowns, and protocol distribution at a glance."
+  },
+  "footer": {
+    "site": "Al-Masjid An-Nabawi Sound System Upgrade · BT Applied Technology (BTAT)",
+    "copyright": "© 2026 BTAT. All rights reserved."
+  }
+}

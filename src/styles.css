@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg-base: #0a0e1a;
+  --color-bg-surface: #111827;
+  --color-bg-elevated: #1a2235;
+  --color-border: #1e2d45;
+  --color-border-accent: #2a3f60;
+  --color-navy-700: #154360;
+  --color-navy-600: #1a8ccc;
+  --color-gold-400: #d4a853;
+  --color-gold-300: #e8c47a;
+  --color-gold-200: #f0d49a;
+  --color-teal-400: #1d9e75;
+  --color-amber-400: #ef9f27;
+  --color-text-primary: #f0ede8;
+  --color-text-secondary: #9ca3af;
+  --color-text-muted: #6b7280;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-bg-base);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(212, 168, 83, 0.12), transparent 32%),
+    linear-gradient(180deg, #0a0e1a 0%, #090d18 100%);
+  color: var(--color-text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.font-arabic,
+.font-arabic * {
+  font-family: 'IBM Plex Arabic', 'Noto Sans Arabic', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 lg:px-8;
+}
+
+.card-shell {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+}
+
+.card-featured {
+  border-top: 2px solid var(--color-gold-400);
+}

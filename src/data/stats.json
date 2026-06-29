@@ -1,0 +1,39 @@
+{
+  "heroStats": [
+    { "value": 6199, "labelEN": "Speakers deployed", "labelAR": "أجهزة صوت مركبة", "suffix": "+" },
+    { "value": 9, "labelEN": "Coverage zones", "labelAR": "مناطق تغطية", "suffix": "" },
+    { "value": 7, "labelEN": "Independent NEXUS systems", "labelAR": "أنظمة NEXUS مستقلة", "suffix": "" },
+    { "value": 100, "labelEN": "Digital AoIP network", "labelAR": "شبكة صوت رقمية", "suffix": "%" }
+  ],
+  "metricCards": [
+    { "value": 6199, "labelEN": "Total speakers", "labelAR": "إجمالي مكبرات الصوت" },
+    { "value": 9, "labelEN": "Coverage zones", "labelAR": "مناطق التغطية" },
+    { "value": 7, "labelEN": "Independent NEXUS systems", "labelAR": "أنظمة NEXUS المستقلة" },
+    { "value": 92, "labelEN": "XDIP Dante output boards", "labelAR": "بطاقات خرج XDIP Dante" },
+    { "value": 2, "labelEN": "Redundant control rooms", "labelAR": "غرفتا تحكم احتياطيتان" },
+    { "value": 6, "labelEN": "AVATUS C36 mixing consoles", "labelAR": "طاولات خلط AVATUS C36" }
+  ],
+  "speakersPerZone": [
+    { "labelEN": "Old Building", "labelAR": "المبنى القديم", "value": 90 },
+    { "labelEN": "First Exp. + Haswatin", "labelAR": "التوسعة الأولى + الحصوات", "value": 200 },
+    { "labelEN": "2nd Exp. (GF)", "labelAR": "التوسعة الثانية (الأرضي)", "value": 1921 },
+    { "labelEN": "2nd Exp. (Roof)", "labelAR": "التوسعة الثانية (السطح)", "value": 341 },
+    { "labelEN": "Piazza", "labelAR": "الساحة", "value": 998 },
+    { "labelEN": "Basement", "labelAR": "البدروم", "value": 196 },
+    { "labelEN": "Car Park & Strip", "labelAR": "مواقف السيارات وشريط الخدمة", "value": 2307 },
+    { "labelEN": "Minarets", "labelAR": "المآذن", "value": 36 },
+    { "labelEN": "Streets", "labelAR": "الشوارع", "value": 110 }
+  ],
+  "protocolDistribution": [
+    { "labelEN": "Dante active", "labelAR": "Dante النشط", "value": 2321, "color": "#1D9E75" },
+    { "labelEN": "Ravenna", "labelAR": "Ravenna", "value": 1339, "color": "#EF9F27" },
+    { "labelEN": "Passive/Dante", "labelAR": "سلبي / Dante", "value": 2539, "color": "#6B7280" }
+  ],
+  "typeBreakdown": [
+    { "labelEN": "Active Line Array", "labelAR": "مكبر صفي نشط", "value": 400 },
+    { "labelEN": "Active Steerable", "labelAR": "مكبر قابل للتوجيه", "value": 1921 },
+    { "labelEN": "Active Matrix", "labelAR": "مصفوفة نشطة", "value": 1339 },
+    { "labelEN": "Passive Cabinet", "labelAR": "مكبر سلبي", "value": 2503 },
+    { "labelEN": "Passive Horn", "labelAR": "مكبر بوق سلبي", "value": 36 }
+  ]
+}

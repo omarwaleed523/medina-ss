@@ -1,0 +1,97 @@
+[
+  {
+    "id": "rh-ic8",
+    "model": "IC8",
+    "manufacturer": "Renkus-Heinz",
+    "type": "Active Line Array",
+    "typeAR": "مكبر صفي نشط",
+    "protocol": "Dante",
+    "totalQty": 290,
+    "zones": [
+      { "nameEN": "Old Building", "nameAR": "المبنى القديم", "qty": 90 },
+      { "nameEN": "First Expansion", "nameAR": "التوسعة الأولى", "qty": 176 },
+      { "nameEN": "Haswatin", "nameAR": "الحصوات", "qty": 24 }
+    ],
+    "keySpecs": ["Self-amplified (active)", "Steerable beam", "Dante AoIP", "Built-in DSP", "Fiber optic connectivity"]
+  },
+  {
+    "id": "rh-iclive",
+    "model": "IC Live",
+    "manufacturer": "Renkus-Heinz",
+    "type": "Active Line Array",
+    "typeAR": "مكبر صفي نشط",
+    "protocol": "Dante",
+    "totalQty": 110,
+    "zones": [
+      { "nameEN": "Surrounding Streets", "nameAR": "الشوارع المحيطة", "qty": 110 }
+    ],
+    "keySpecs": ["Outdoor-rated", "Self-amplified", "Dante AoIP", "Weather protection IP55", "Fiber optic connectivity"]
+  },
+  {
+    "id": "rh-uba4",
+    "model": "UBA4-MH",
+    "manufacturer": "Renkus-Heinz",
+    "type": "Active Miniature Steerable Array",
+    "typeAR": "مصفوفة توجيه مصغرة نشطة",
+    "protocol": "Dante",
+    "totalQty": 1921,
+    "zones": [
+      { "nameEN": "2nd Expansion — Ground Floor", "nameAR": "التوسعة الثانية — الأرضي", "qty": 1921 }
+    ],
+    "keySpecs": ["Column-mounted steerable", "Self-amplified", "Dante AoIP", "Compact form factor for column installation", "Built-in DSP"]
+  },
+  {
+    "id": "holoplot-x2",
+    "model": "X2-MD30",
+    "manufacturer": "HOLOPLOT",
+    "type": "Active 2D Matrix Array",
+    "typeAR": "مصفوفة ثنائية الأبعاد نشطة",
+    "protocol": "Ravenna",
+    "totalQty": 1339,
+    "zones": [
+      { "nameEN": "Piazza & Service Strip", "nameAR": "الساحة الخارجية", "qty": 998 },
+      { "nameEN": "2nd Expansion — Roof", "nameAR": "التوسعة الثانية — السطح", "qty": 341 }
+    ],
+    "keySpecs": ["2D wave field synthesis", "Self-amplified", "Ravenna / AES67 AoIP", "Software-controlled beamforming", "Outdoor and indoor rated"]
+  },
+  {
+    "id": "bose-dm5se",
+    "model": "DM5SE",
+    "manufacturer": "Bose",
+    "type": "Passive Speaker",
+    "typeAR": "مكبر سلبي",
+    "protocol": "Passive",
+    "amplifier": "Crown DCi 4/300 DA (Basement) / Crown DCi 8/300 DA (Car Park)",
+    "totalQty": 2503,
+    "zones": [
+      { "nameEN": "Basement", "nameAR": "البدروم", "qty": 196 },
+      { "nameEN": "Car Park & Service Strip", "nameAR": "مواقف السيارات", "qty": 2307 }
+    ],
+    "keySpecs": ["Requires external amplifier", "Compact surface mount", "Wide dispersion", "Crown DCi DA amplifier (Dante-enabled)", "Staggered redundancy wiring"]
+  },
+  {
+    "id": "biamp-rsh462",
+    "model": "RSH-462",
+    "manufacturer": "Biamp",
+    "type": "Passive Horn Speaker",
+    "typeAR": "مكبر بوق سلبي",
+    "protocol": "Passive",
+    "amplifier": "Crown DCi 4/1250 DA",
+    "totalQty": 36,
+    "zones": [
+      { "nameEN": "Minarets", "nameAR": "المآذن", "qty": 36 }
+    ],
+    "keySpecs": ["High-output horn design", "Weather-rated outdoor", "1,250W Crown amplifier", "Long-throw projection", "Full redundancy wiring"]
+  },
+  {
+    "id": "crown-dci",
+    "model": "DCi Series (DA)",
+    "manufacturer": "Crown",
+    "type": "Power Amplifier",
+    "typeAR": "مضخم قدرة",
+    "protocol": "Dante",
+    "totalQty": null,
+    "zones": [],
+    "keySpecs": ["DCi 4/300 DA — 4ch × 300W (Basement)", "DCi 8/300 DA — 8ch × 300W (Car Park)", "DCi 4/1250 DA — 4ch × 1,250W (Minarets)", "Dante AoIP input on all DA models", "HiQnet network monitoring"]
+  }
+]
