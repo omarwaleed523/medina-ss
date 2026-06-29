@@ -79,7 +79,7 @@ export function CoverageMap() {
                   }}
                   className={`rounded-full border px-4 py-2 text-sm font-semibold transition ${floor === tab.id ? 'border-gold400 bg-[rgba(212,168,83,0.12)] text-gold200' : 'border-borderDefault text-textSecondary'}`}
                 >
-                  {tab[`label${lang.toUpperCase() as 'labelEN' | 'labelAR'}`]}
+                  {lang === 'ar' ? tab.labelAR : tab.labelEN}
                 </button>
               ))}
             </div>
